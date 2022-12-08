@@ -17,16 +17,4 @@ We then loading our clean dataframe..
 
 ## Visualisations and Conclusions
 
-Group members: 
-
-Patricia Colomer
-
-Hibaa Aldubai
-
-Astha Nayak
-
-Abraham Ofolu
-
-Siyuan Liang
-
-Samanthi Jayaranthna
+Group members: Patricia Colomer, Hibaa Aldubai, Astha Nayak, Abraham Ofolu, Siyuan Liang and Samanthi Jayaranthna.
