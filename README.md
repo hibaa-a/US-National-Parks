@@ -18,9 +18,15 @@ We then loading our clean dataframe..
 ## Visualisations and Conclusions
 
 Group members: 
+
 Patricia Colomer
+
 Hibaa Aldubai
+
 Astha Nayak
+
 Abraham Ofolu
+
 Siyuan Liang
+
 Samanthi Jayaranthna
