@@ -16,3 +16,10 @@ APIs:
 
 ## The Story and Conclusions
 
+Group members: 
+Patricia Colomer
+Hibaa Aldubai
+Astha Nayak
+Abraham Ofolu
+Siyuan Liang
+Samanthi Jayaranthna
