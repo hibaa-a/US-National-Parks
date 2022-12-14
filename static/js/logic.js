@@ -9,12 +9,20 @@ L.tileLayer('https:////{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myMap);
 
-function createCircles(coordinates) {
-    if (borough == "Brooklyn") return "yellow";
-    else if (borough == "Bronx") return "red";
-    else if (borough == "Manhattan") return "orange";
-    else if (borough == "Queens") return "green";
-    else if (borough == "Staten Island") return "purple";
-    else return "black";
-  } 
+var data =  JSON.parse(data);
 
+for(var i=0; i< data.length; i++){
+    row = data[i]
+    lat = row.Latitude
+    lon = row.Longitude
+    L.marker(lat,lon)
+      .bindPopup(`<h1>${data.park}</h1> <hr> <h3>Population ${data.state.toLocaleString()}</h3>`)
+      .addTo(myMap);
+  }
+
+//activity 3 Stu_City_markers
+
+
+
+
+  
