@@ -9,9 +9,12 @@ L.tileLayer('https:////{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myMap);
 
-// getting data from csv file Remember to change the file
-const url = "https://github.com/hibaaaldubai/Group-4-Project-3/blob/main/Resources/cleaned_park.csv"
+function createCircles(coordinates) {
+    if (borough == "Brooklyn") return "yellow";
+    else if (borough == "Bronx") return "red";
+    else if (borough == "Manhattan") return "orange";
+    else if (borough == "Queens") return "green";
+    else if (borough == "Staten Island") return "purple";
+    else return "black";
+  } 
 
-d3.csv()
-// Async / await usage
-const jsonArray=await csv().fromFile(csvFilePath);

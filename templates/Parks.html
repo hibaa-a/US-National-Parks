@@ -14,7 +14,7 @@
         <!--<link rel="stylesheet" href="static/css/bootstrap.min.css" media="screen"> -->
     
         <!-- Our own CSS stylesheet -->
-        <link rel="stylesheet" href="static/css/styles.css" media="screen">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}" media="screen">
         <script src="https://d3js.org/d3.v5.min.js"></script>
 
         <!-- Leaflet JavaScript code -->
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
         
                         <div class="col-xs-9 phone-nav">
-                            <a class="navbar-brand" href="index.html" id="logo">Home</a>
+                            <a class="navbar-brand" href="/" id="logo">Home</a>
                         </div>
                     </div>
                </div>
@@ -48,8 +48,8 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
-                        <a href="Parks.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Parks</a>
-                        <a href="Species.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Species</a>
+                        <a href="/parks" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Parks</a>
+                        <a href="/species" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Species</a>
                     
                     
                     </ul>
@@ -79,7 +79,10 @@
 
 
             
-
+      <script>
+        var data = {{data | tojson}}
+        console.log(data)
+    </script>
       <!-- Our JavaScript file -->
       <script type="text/javascript" src="static/js/logic.js"></script>
 
