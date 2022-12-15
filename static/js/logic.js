@@ -11,16 +11,30 @@ L.tileLayer('https:////{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var data =  JSON.parse(data);
 
-for(var i=0; i< data.length; i++){
-    row = data[i]
-    lat = row.Latitude
-    lon = row.Longitude
-    L.marker(lat,lon)
-      .bindPopup(`<h1>${data.park}</h1> <hr> <h3>Population ${data.state.toLocaleString()}</h3>`)
-      .addTo(myMap);
-  }
 
-//activity 3 Stu_City_markers
+var myIcon = L.divIcon({className: 'my-div-icon'});
+// you can set .my-div-icon styles in CSS
+
+function markerSize(Acres) {
+  return Math.sqrt(Acres) * 50;
+}
+
+
+for(var i=0; i< data.length; i++){
+  row = data[i]
+  Latitude = row.Latitude
+  Longitude = row.Longitude
+  //console.log(Latitude, Longitude)
+  L.circle([Latitude,Longitude], {
+    fillOpacity: 0.75,
+    color: "white",
+    fillColor: "purple",
+    // Setting our circle's radius to equal the output of our markerSize() function:
+    // This will make our marker's size proportionate to its population.
+    radius: markerSize(row.Acres)
+  }).bindPopup(`<h1>Park Name: ${row.State}</h1> <hr> <h3>State(s): ${row.State.toLocaleString()}</h3>`).addTo(myMap); //change to column Park Name once it is renamed
+}
+
 
 
 
