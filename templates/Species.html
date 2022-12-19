@@ -59,7 +59,7 @@
             
         </nav>
 
-        <div id="map-id"></div>
+        <div id="myDiv"></div>
             
 
         <footer class="footer navbar-fixed-bottom">
@@ -77,8 +77,16 @@
       <!-- Bootstrap CDN -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+      <!--Plotly JS -->
+      <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
 
-            
+      <script>
+        var data = {{data | tojson}}
+
+    </script>
+
+
+      <script type="text/javascript" src="static/js/plot.js"></script>
 
       <!-- Our JavaScript file -->
      <!-- <script type="text/javascript" src="static/js/logic.js"></script> -->
