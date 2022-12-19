@@ -15,6 +15,11 @@ Plant and animal species in parks.
 
 https://www.kaggle.com/datasets/nationalparkservice/park-biodiversity?select=parks.csv
 
+We obtained our data from Biodiversity in National Parks | Kaggle
+We selected these data files to learn more about the National Parks in the US, where they are located and the species that live within them. 
+When researching the data, we learnt many things including loss of plant and animal species over time has always occurred, but the current pace of extinction is roughly 1,000 times higher than the natural rate.
+Reasons for this include climate change, pollution, habitat destruction, over-exploitation of natural resources, introduction of invasive species and an increase in intensive agriculture.
+
 
 ### Technologies: 
 Python 3, Flask, SQL, Bootstrap, HTML5, CSS, JSON??....
