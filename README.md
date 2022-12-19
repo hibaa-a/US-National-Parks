@@ -8,9 +8,6 @@ However, biodiversity also refers to the ecosystems in our forests, wetlands, mo
 Millions of plant and animal species maintain these ecosystems, creating oxygen that we breathe, providing food for us to eat and ultimately ensuring a sustainable planet for future generations.
 They are essential to human survival.
 
-### Technologies: 
-Python 3, Flask, SQL, Bootstrap, HTML5, CSS, JSON??....
-
 ### Source:
 
 National park locations and areas.
@@ -18,13 +15,14 @@ Plant and animal species in parks.
 
 https://www.kaggle.com/datasets/nationalparkservice/park-biodiversity?select=parks.csv
 
-APIs:
 
-## Extract, Transform and Load
-We started by cleaning our data using...
-We then loading our clean dataframe..
+### Technologies: 
+Python 3, Flask, SQL, Bootstrap, HTML5, CSS, JSON??....
 
 
-## Visualisations and Conclusions
+## Visualisations 
 
-Group members: Patricia Colomer, Hibaa Aldubai, Astha Nayak, Abraham Ofolu, Siyuan Liang and Samanthi Jayaranthna.
+## Conclusions
+
+### Group members: 
+Patricia Colomer, Hibaa Aldubai, Astha Nayak, Abraham Ofolu, Siyuan Liang and Samanthi Jayaranthna.
