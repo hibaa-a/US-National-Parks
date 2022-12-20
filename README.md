@@ -1,4 +1,6 @@
 # Biodiversity in National Parks
+![image](https://user-images.githubusercontent.com/111711194/208634489-c2fc850c-2f2e-4d1b-963c-4d92836740ea.png)
+
 
 ### What is Biodiversity?
 
