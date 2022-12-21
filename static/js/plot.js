@@ -1,6 +1,21 @@
 // creating barchart
 var data = JSON.parse(data)
 console.log(data[0])
+
+park_array = [];
+
+data.map((row) => {
+  // console.log("row_data")
+  // console.log(row_data)
+
+  if (park_array.indexOf(row["Park Name"]) === -1) {
+    park_array.push(row["Park Name"])
+  }
+
+});
+
+console.log(park_array)
+
 var Barchartdata = [
     {
       y: [2876, 2115, 2106, 1910, 1856, 1785, 1576, 1499, 1403, 1356, 1334, 1308, 1303, 1279, 1244, 1239, 1204, 1201, 1194, 1168, 1105, 1075, 1023, 1010, 1001, 997, 993, 992, 986, 983, 933, 910, 869, 847, 840, 785, 765, 763, 762, 737, 679, 654, 643, 623, 619, 608, 600, 510, 505, 504, 500, 457, 410, 389, 378, 367, 305, 299, 287],
