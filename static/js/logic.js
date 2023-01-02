@@ -32,7 +32,7 @@ for(var i=0; i< data.length; i++){
     // Setting our circle's radius to equal the output of our markerSize() function:
     // This will make our marker's size proportionate to its population.
     radius: markerSize(row.Acres)
-  }).bindPopup(`<h1>Park Name: ${row.State}</h1> <hr> <h3>State(s): ${row.State.toLocaleString()}</h3>`).addTo(myMap); //change to column Park Name once it is renamed
+  }).bindPopup(`<h1>Park Name: ${row.Park_Name}</h1> <hr> <h3>State(s): ${row.State.toLocaleString()}</h3>`).addTo(myMap); //change to column Park Name once it is renamed
 }
 
 
