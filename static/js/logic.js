@@ -9,7 +9,7 @@ L.tileLayer('https:////{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myMap);
 
-var data1 =  JSON.parse(data1);
+var data =  JSON.parse(data);
 
 
 var myIcon = L.divIcon({className: 'my-div-icon'});
@@ -20,8 +20,8 @@ function markerSize(Acres) {
 }
 
 
-for(var i=0; i< data1.length; i++){
-  row = data1[i]
+for(var i=0; i< data.length; i++){
+  row = data[i]
   Latitude = row.Latitude
   Longitude = row.Longitude
   //console.log(Latitude, Longitude)
