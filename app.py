@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify 
 import pandas as pd
 
 app = Flask(__name__)
@@ -22,6 +22,11 @@ def parks():
     data = data_file.to_json(orient="records")
     return render_template("Parks.html", data=data)
 
+@app.route("/parks2")
+def parks2():
+    data_file = pd.read_csv("./Resources/cleaned_park.csv")
+    data = data_file.to_json(orient="records")
+    return jsonify(data)
 
 @app.route("/species")
 def species():
