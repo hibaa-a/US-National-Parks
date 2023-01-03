@@ -41,7 +41,7 @@ Javascript and Leaflet to create our visualisations...
 
 ## Conclusions
 There are 56 national park in USA  biggest national park is (Zion National Park) and  smallest national park is (Acadia National Park) .As we can see in pie chart California(CA) states have the highest biodiversity and second have Alaska(Ak)state .and third is Washington state. Dry Tortugas National Park has lowest species and Great Smoky Mountains National Park has a highest species count. Falco peregrinus is the most common species it is present in 56 parks . Biodiversity is our life . it is  our moral duty to conserve Biodiversity  as well our Environment. Long –term  maintenance of  species and their management requires co-operative efforts across  entire landscapes.
-![image](https://user-images.githubusercontent.com/111711194/210456862-f6283a3b-872d-418a-839d-bb9a63029228.png)
+
 
 
 
