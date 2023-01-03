@@ -10,3 +10,116 @@ body {
   html {
     height: 100%;
   }
+
+/* ----DEFAULT ELEMENT STYLING START---- */
+html {
+  /* Positioning */
+  position: relative;
+  /* Box-model */
+  min-height: 100%;
+}
+body {
+  /* Positioning */
+  margin-bottom: 150px;
+  /* Typography */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* Visual */
+  background-color: #ededed;
+}
+/* Media query for body */
+@media only screen and (max-width: 767px) {
+  /* Set background color to white on small screens */
+  body {
+    /* Visual */
+    background-color: #fff;
+  }
+}
+/* ----DEFAULT ELEMENT STYLING END---- */
+/* ----NAV START---- */
+.navbar-custom {
+  background-color: #fff;
+}
+#logo {
+  /* Box-model */
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  /* Positioning */
+  margin-left: 70px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  /* Visual */
+  background: #9da3a3;
+}
+/* Logo hover state */
+#logo:hover {
+  /* Visual */
+  opacity: 0.7;
+}
+.navbar-right-custom {
+  /* Box-model */
+  padding-top: 6px;
+  padding-right: 20px;
+  /* Typography */
+  font-family: Arial;
+  font-weight: lighter;
+}
+/* Nav element hover state */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0a0a0a;
+}
+
+
+
+
+/* ----DESCRIPTION START---- */
+
+
+/* ----DESCRIPTION END---- */
+/* ----IMAGE NAV START---- */
+
+.main_images {
+  /* Box-model */
+  padding-top: 15px;
+  /* Typography */
+  text-align: center;
+}
+.imageNav-photo-parks {
+  /* Positioning */
+  float: center;
+  /* Box-model */
+  width: 649px;
+  height: 400px;
+  margin-top: 20px;
+  
+}
+
+.imageNav-photo-species {
+  /* Positioning */
+  float: center;
+  /* Box-model */
+  
+  margin-top: 20px;
+  
+}
+
+.imageNav-photo-species {width: 300px!important; 
+  /* Box-model */
+  height: 400px!important;
+}
+.imageNav-photo-species:hover {
+  /* Visuals */
+  opacity: 0.6;
+}
+.imageNav-photo-species.active {
+  /* Visuals */
+  border: 2px solid #959a9a;
+}
+
+.description-paragraph{
+  height: 300px!important;
+}
+
