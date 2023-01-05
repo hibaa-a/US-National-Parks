@@ -24,15 +24,15 @@ Reasons for this include climate change, pollution, habitat destruction, over-ex
 
 
 ### Technologies: 
-Python 3, Flask, SQL, Bootstrap, HTML5, CSS, JSON??....
+Python 3, Flask, SQL, Bootstrap, HTML5, CSS, JSON, Leaflet.js
 
 After downloading our data, we cleaned both files by removing any columns that did not provide us with any relevant information.
 We also removed any rows that had missing data.
 We then used SQL to housed our cleaned information within 2 tables.
 
-We used HTML5 and CSS to create our webpages...
-For our nav bar and drop down menu, we used Bootstrap..
-Javascript and Leaflet to create our visualisations... 
+We used HTML5 and CSS to create our 3 webpages; index.html, parks.html and species.html
+For our nav bar and drop down menu, we used Bootstrap and applied the same design to all 3 pages.
+Javascript and Leaflet were used to create our visualisations.
 
 
 ## Visualisations 
