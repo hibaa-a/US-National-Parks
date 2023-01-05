@@ -32,19 +32,54 @@ We then used SQL to housed our cleaned information within 2 tables.
 
 We used HTML5 and CSS to create our 3 webpages; index.html, parks.html and species.html.
 
-For our nav bar and drop down menu, we used Bootstrap and applied the same design to all 3 pages.
+For our nav bar and drop down menu, we used Bootstrap and applied the same design to all 3 pages. This meant all 3 of our webpages can be accessed regardless of which page you were on.
 
 Javascript and Leaflet were used to create our visualisations.
 
 
 ## Visualisations 
 
-(include video or screen captures of visalisations...)
+Check presentation for demo video.
+
+### Home Page
+
+![image](https://user-images.githubusercontent.com/109045338/210800806-13e0b421-f1e1-48f5-95dd-56f8fb6dac99.png)
+
+On the home page, we have included an introduction into our topic and some facts and findings. 
+There is a map which upon clicked will take you to our interactive map on the parks page. 
+There is also 2 piecharts; one showing the 22 species that can be found in the majority of national parks and the other showing the states the parks are located in.
+
+### Parks Page
+
+![image](https://user-images.githubusercontent.com/109045338/210801856-73f2f591-408f-4f3a-81b5-d86ba5e9145e.png)
+![image](https://user-images.githubusercontent.com/109045338/210801865-25255337-7a31-4199-a2ee-3e6363d0722c.png)
+
+Here you will find an interactive map with all the US National Parks pinpointed. The size of the circles is proportionate to the size of the national parks.
+
+When you hover over the park, it will come up with the park name alongside which state the park is in.
+
+### Species Page
+
+![image](https://user-images.githubusercontent.com/109045338/210806707-e521a176-66fb-4ef1-bdda-1ee6b16e68a6.png)
+
+Here there is an interactive barchart which lists all the park names starting from the park with the most number of species and going down to the park with the least.
 
 ## Conclusions
-There are 56 national park in USA  biggest national park is (Zion National Park) and  smallest national park is (Acadia National Park) .As we can see in pie chart California(CA) states have the highest biodiversity and second have Alaska(Ak)state .and third is Washington state. Dry Tortugas National Park has lowest species and Great Smoky Mountains National Park has a highest species count. Falco peregrinus is the most common species it is present in 56 parks . Biodiversity is our life . it is  our moral duty to conserve Biodiversity  as well our Environment. Long –term  maintenance of  species and their management requires co-operative efforts across  entire landscapes.
+There are 56 national park in USA with the biggest national park being Zion National Park and the smallest beng Acadia National Park. 
 
+As we can see in the pie chart, the state of California(CA) has the highest biodiversity and in second Alaska(Ak) and third  Washington state. Dry Tortugas National Park has the lowest number of species and Great Smoky Mountains National Park has the highest species count. Falco peregrinus is the most common species;it is present in 56 parks. 
 
+Biodiversity is very important to maintain life and it is our duty to conserve biodiversity as well as our environment. Long–term  maintenance of species and their management requires co-operative efforts across entire landscapes.
+
+## Files Uploaded
+- Various data cleaning jupyter notebooks used for cleaning and creating CSV's
+- Images and videos under Resources
+- Cleaned CSV files under Resources
+- Static contains our CSS files (styles.css), a cleaned CSV, images and 2 Javascipt files (logic.js and park.js)
+- The three templates for the webpages are stored under Templates (index.html, Parks.html and Species.html).
+- Presentation
+- app.py file
+- 
 
 
 ### Group members: 
