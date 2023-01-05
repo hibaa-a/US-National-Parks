@@ -80,5 +80,15 @@ Biodiversity is very important to maintain life and it is our duty to conserve b
 - app.py file
 
 
-### Group members: 
-Patricia Colomer, Hibaa Aldubai, Astha Nayak, Abraham Ofolu, Siyuan Liang and Samanthi Jayaranthna.
+### Group members and contributions: 
+Patricia Colomer:
+
+Hibaa Aldubai:
+
+Astha Nayak:
+
+Abraham Ofolu:
+
+Siyuan Liang:
+
+Samanthi Jayaranthna:
