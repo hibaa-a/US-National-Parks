@@ -79,7 +79,6 @@ Biodiversity is very important to maintain life and it is our duty to conserve b
 - The three templates for the webpages are stored under Templates (index.html, Parks.html and Species.html).
 - Presentation
 - app.py file
-- 
 
 
 ### Group members: 
