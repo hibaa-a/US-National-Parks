@@ -83,7 +83,7 @@ Biodiversity is very important to maintain life and it is our duty to conserve b
 ### Group members and contributions: 
 Patricia Colomer:
 
-Hibaa Aldubai: Project pr
+Hibaa Aldubai: Project proposal, species page (interactive bar chart), created the presentation, readme
 
 Astha Nayak:
 
