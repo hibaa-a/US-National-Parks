@@ -87,7 +87,7 @@ Hibaa Aldubai: Project proposal, species page (interactive bar chart), nav bar, 
 
 Astha Nayak: Project proposal,conclusions page ,ERD diagram,biodiversity defination page,readme
 
-Abraham Ofolu:
+Abraham Ofolu: Project Proposal, Data Extraction, Data Loading, Data Cleaning, Presentation Powerpoint, Web Page Assist, Readme.  
 
 Siyuan Liang:
 
