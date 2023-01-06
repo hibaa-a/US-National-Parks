@@ -85,7 +85,7 @@ Patricia Colomer: Project proposal, home page and and parks page, website format
 
 Hibaa Aldubai: Project proposal, species page (interactive bar chart), nav bar, part of the home page, created the presentation, readme
 
-Astha Nayak:
+Astha Nayak: Project proposal,conclusions page ,ERD diagram,biodiversity defination page,readme
 
 Abraham Ofolu:
 
