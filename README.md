@@ -24,7 +24,7 @@ Reasons for this include climate change, pollution, habitat destruction, over-ex
 
 
 ### Technologies: 
-Python 3, Flask, SQL, Bootstrap, HTML5, CSS, JSON, Leaflet.js
+Python 3, Flask, SQL, Bootstrap, HTML5, CSS,JavaScript, JSON, Leaflet.js
 
 After downloading our data, we cleaned both files by removing any columns that did not provide us with any relevant information.
 We also removed any rows that had missing data.
