@@ -91,4 +91,4 @@ Abraham Ofolu:
 
 Siyuan Liang:
 
-Samanthi Jayaranthna:
+Samanthi Jayaranthna:Project proposal, Readme, Project precentation slides, Assist with the web pages
