@@ -81,7 +81,7 @@ Biodiversity is very important to maintain life and it is our duty to conserve b
 
 
 ### Group members and contributions: 
-Patricia Colomer:
+Patricia Colomer: Project proposal, home page and and parks page, website formatting (css), visualisations using jupyter notebook, demo video.
 
 Hibaa Aldubai: Project proposal, species page (interactive bar chart), nav bar, part of the home page, created the presentation, readme
 
